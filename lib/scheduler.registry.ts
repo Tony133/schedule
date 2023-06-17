@@ -2,6 +2,9 @@ import { Injectable, Logger } from '@nestjs/common';
 import { CronJob } from 'cron';
 import { DUPLICATE_SCHEDULER, NO_SCHEDULER_FOUND } from './schedule.messages';
 
+/**
+ * @publicApi
+ */
 @Injectable()
 export class SchedulerRegistry {
   private readonly logger = new Logger(SchedulerRegistry.name);

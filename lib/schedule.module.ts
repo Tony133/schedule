@@ -5,6 +5,9 @@ import { ScheduleExplorer } from './schedule.explorer';
 import { SchedulerOrchestrator } from './scheduler.orchestrator';
 import { SchedulerRegistry } from './scheduler.registry';
 
+/**
+ * @publicApi
+ */
 @Module({
   imports: [DiscoveryModule],
   providers: [SchedulerMetadataAccessor, SchedulerOrchestrator],

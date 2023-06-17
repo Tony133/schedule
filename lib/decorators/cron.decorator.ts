@@ -8,6 +8,8 @@ import {
 
 /**
  * @ref https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/cron/index.d.ts
+ * 
+ * @publicApi
  */
 export interface CronOptions {
   /**
